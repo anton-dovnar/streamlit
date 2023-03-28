@@ -47,6 +47,4 @@ setup(
     package_data={"streamlit": ["py.typed"]},
     python_requires=">=3.7, !=3.9.7",
     include_package_data=True,
-    zip_safe=False,  # install source files not egg
-    entry_points={"console_scripts": ["streamlit = streamlit.web.cli:main"]},
 )
