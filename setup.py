@@ -49,5 +49,4 @@ setup(
     include_package_data=True,
     zip_safe=False,  # install source files not egg
     entry_points={"console_scripts": ["streamlit = streamlit.web.cli:main"]},
-    scripts=["bin/streamlit.cmd"],
 )
