@@ -139,7 +139,7 @@ setuptools.setup(
     # https://bugs.python.org/issue45121
     python_requires=">=3.7, !=3.9.7",
     # PEP 561: https://mypy.readthedocs.io/en/stable/installed_packages.html
-    package_data={"streamlit": ["py.typed", "hello/**/*.py"]},
+    package_data={"streamlit": ["py.typed", "hello/**/*.py", "static/*"]},
     packages=setuptools.find_packages(exclude=["tests", "tests.*"]),
     # Requirements
     install_requires=INSTALL_REQUIRES,
